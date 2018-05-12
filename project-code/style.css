@@ -1,0 +1,65 @@
+body {
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 0;
+}
+h1 {
+    font-size: 2em;
+}
+.cart{
+    width: 25%;
+    background-color: #78B856;
+    border: 2px black solid;
+}
+.col, .col-2, .col-4 {
+    text-align: center;
+}
+.row {
+    text-align: center;
+}
+
+header .col, header .row {
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: center;
+}
+.tabRow button {
+  background-color: #78B856;
+  color: white;
+  font-size: 17px;
+  width: 100%;
+  border: 2px black solid;
+  box-shadow: none;
+}
+.tabRow button:hover {
+    background-color: white;
+    color: black;
+  }
+header {
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+}
+header img {
+    width: 100%;
+    height: 100%;
+    align-content: center;
+}
+
+
+.item {
+    margin: 0 auto;
+    text-align: center;
+}
+.shopArea img{
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    background-color: #78B856;
+    border: 2px black solid;
+}
+footer p {
+    margin: 0 auto;
+}
