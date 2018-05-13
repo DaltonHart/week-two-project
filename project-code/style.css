@@ -59,7 +59,11 @@ header img {
 footer {
     background-color: #78B856;
     border: 2px black solid;
+    text-align: center;
+    color: white;
 }
-footer p {
+footer a{
+    text-decoration: none;
+    color: white;
     margin: 0 auto;
 }
