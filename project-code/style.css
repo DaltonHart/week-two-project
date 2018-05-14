@@ -11,12 +11,10 @@ h1 {
     background-color: #78B856;
     border: 2px black solid;
 }
-.col, .col-2, .col-4 {
+.col, .col-2, .col-4, .row {
     text-align: center;
 }
-.row {
-    text-align: center;
-}
+
 
 header .col, header .row {
     padding-right: 0px;
@@ -55,7 +53,14 @@ header img {
     width: 100%;
     height: 100%;
 }
-
+.shopArea {
+    margin: 1em;
+}
+.cart ol {
+    padding: 0;
+    margin: .5em;
+    font-size: .5em;
+}
 footer {
     background-color: #78B856;
     border: 2px black solid;

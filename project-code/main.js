@@ -32,11 +32,11 @@ function changeCat1 (){
     item4Img.src = 'assets/mangoLAC.jpeg'
     item5Img.src = 'assets/passionLAC.jpeg'
     item6Img.src = 'assets/tangerineLAC.jpeg'
-    item1but.innerText = 'Grape Fruit La Croix'
+    item1but.innerText = 'Grapefruit La Croix'
     item2but.innerText = 'Coconut La Croix'
     item3but.innerText = 'Kiwi Sandia La Croix'
     item4but.innerText = 'Mango La Croix'
-    item5but.innerText = 'Passion Fruit La Croix'
+    item5but.innerText = 'Passion La Croix'
     item6but.innerHTML = 'Tangerine La Croix'
 }
 
@@ -67,5 +67,22 @@ function changeCat3 (){
     item3but.innerText = 'Strawberries'
     item4but.innerText = 'Bananas'
     item5but.innerText = 'Rasberries'
-    item6but.innerHTML = 'Blackberries'
+    item6but.innerText = 'Blackberries'
 }
+
+// create variable to hold empty array of cart items
+var shoppingCart = [];
+
+item1but.addEventListener('click',addToCart);
+item2but.addEventListener('click',addToCart);
+item3but.addEventListener('click',addToCart);
+item4but.addEventListener('click',addToCart);
+item5but.addEventListener('click',addToCart);
+item6but.addEventListener('click',addToCart);
+
+function addToCart (){
+    var newItem = document.createElement('li');
+    newItem.textContent = this.innerText;
+    document.getElementById('cart').appendChild(newItem);
+    }
+
