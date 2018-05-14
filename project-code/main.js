@@ -82,7 +82,7 @@ item6but.addEventListener('click',addToCart);
 
 function addToCart (){
     var newItem = document.createElement('li');
-    newItem.textContent = this.innerText;
+    newItem.innerText = this.innerText;
     document.getElementById('cart').appendChild(newItem);
     }
 

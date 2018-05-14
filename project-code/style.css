@@ -21,6 +21,9 @@ header .col, header .row {
     padding-left: 0px;
     text-align: center;
 }
+.tabRow {
+    margin-right: 1em;
+}
 .tabRow button {
   background-color: #78B856;
   color: white;
